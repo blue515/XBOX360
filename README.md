@@ -13,6 +13,6 @@
 
 **啟動XBOX360從rtab-map & rviz檢視**
 > $roscore
-> $roslaunch freenect_launch freenect.launch depth_registration:=true data_skip:=2
-> $roslaunch rtabmap_ros rtabmap.launch rtabmap_args:="--delete_db_on_start"
-> rviz
+>> $roslaunch freenect_launch freenect.launch depth_registration:=true data_skip:=2
+>> $roslaunch rtabmap_ros rtabmap.launch rtabmap_args:="--delete_db_on_start"
+>> rviz
